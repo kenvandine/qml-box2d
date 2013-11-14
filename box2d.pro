@@ -8,12 +8,14 @@ OBJECTS_DIR = .obj
 
 contains(QT_CONFIG, reduce_exports): CONFIG += hide_symbols
 
+API_VER = 1.0
+
 INCLUDEPATH += .
 include(Box2D/box2d.pri)
 
-target.path = $$[QT_INSTALL_QML]/$$replace(TARGETPATH, \\., /)
-
-qmldir.path = $$[QT_INSTALL_QML]/$$replace(TARGETPATH, \\., /)
+installPath = $$[QT_INSTALL_QML]/$$replace(TARGETPATH, \\., /).$$API_VER
+target.path = $$installPath
+qmldir.path = $$installPath
 qmldir.files += $$PWD/qmldir
 
 INSTALLS += target qmldir
