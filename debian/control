@@ -2,20 +2,20 @@ Source: qml-box2d
 Priority: extra
 Maintainer: Ken VanDine <ken.vandine@ubuntu.com>
 Build-Depends: debhelper (>= 9),
+               libbox2d-dev,
                pkg-config,
                qtchooser,
                qt5-qmake,
                qtbase5-dev,
                qtdeclarative5-dev,
                qtdeclarative5-qtquick2-plugin,
-               libbox2d-dev,
 Standards-Version: 3.9.4
 Section: libs
 Homepage:  https://github.com/bjorn/qml-box2d
 
 Package: qtdeclarative5-box2d1.0
 Section: libs
-Architecture: amd64 i386 armhf
+Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
 Description: QML Bindings for the Box2d physics engine

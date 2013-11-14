@@ -1,5 +1,5 @@
-qml-box2d (0.0) raring; urgency=low
+qml-box2d (0.1) UNRELEASED; urgency=low
 
   * New package
 
- -- Ken VanDine <ken.vandine@canonical.com>  Thu, 16 May 2013 12:29:14 -0400
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 14 Nov 2013 12:23:03 -0500
