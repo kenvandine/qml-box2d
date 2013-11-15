@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qml-box2d
-Source: https://github.com/bjorn/qml-box2d
+Source: https://github.com/kenvandine/qml-box2d
 
 Files: *
 Copyright: 2006-2011 Erin Catto http://www.box2d.org
