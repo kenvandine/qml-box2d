@@ -1,3 +1,11 @@
+qml-box2d (0.2~git20140412) UNRELEASED; urgency=medium
+
+  * New upstream snapshot
+  * debian/control
+    * Renamed plugin binary packaging to match upstream API version 
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Wed, 12 Mar 2014 10:58:27 -0400
+
 qml-box2d (0.1~git20131115) trusty; urgency=low
 
   * New package
