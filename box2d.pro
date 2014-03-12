@@ -8,7 +8,7 @@ OBJECTS_DIR = .obj
 
 contains(QT_CONFIG, reduce_exports): CONFIG += hide_symbols
 
-API_VER = 1.0
+API_VER = 1.1
 
 INCLUDEPATH += .
 include(Box2D/box2d.pri)
