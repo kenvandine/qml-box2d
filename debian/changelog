@@ -1,6 +1,38 @@
 qml-box2d (0.2~git20140412) UNRELEASED; urgency=medium
 
   * New upstream snapshot
+    - Updated to Box2D 2.3.0
+    - Added Edge and Chain shapes
+    - Added FrictionJoint
+    - Added GearJoint
+    - Added MotorJoint
+    - Added MouseJoint
+    - Added PulleyJoint
+    - Added RopeJoint
+    - Added WeldJoint
+    - Added WheelJoint
+    - Fixed DebugDraw module for correct work in Qt5
+    - Corrected installation rules for Qt5
+    - Fixed RevoluteJoint (added localAnchorB, angular units changed to 
+      use degree)
+    - Fixed RevoluteJoint (adjusted linear units to pixels), added 
+      OnInitialized event to World
+    - Fixed PrismaticJoint (adjusted linear units to pixels), added anchor 
+      points properties
+    - Added basic ability to scale fixtures
+    - Fixed a fault caused to crash when Body is not direct child of 
+      World (for example, inside Repeater etc.)
+    - Added some missed functions to Body
+    - Added some missed functions/small improvements in Body, shapes etc.
+    - Added some missed properties to Body
+    - Changed the version to 1.1 due to incompatibility with previous 
+      version (metres/pixels, degrees/radians etc.)
+    - Fixed a defect with parent losing if a Body is not direct child of 
+      world. Making world property of Joint is unnecessary
+    - Revert "Fixed a defect with parent losing if a Body is not direct child 
+      of world. Making world property of Joint is unnecessary"
+    - Fixed getJointAngle() returned value
+    - Fixed world gravity value.
   * debian/control
     * Renamed plugin binary packaging to match upstream API version 
 
