@@ -1,4 +1,4 @@
-qml-box2d (0.2~git20140412) UNRELEASED; urgency=medium
+qml-box2d (0.1~git20140412) trusty; urgency=medium
 
   * New upstream snapshot
     - Updated to Box2D 2.3.0
